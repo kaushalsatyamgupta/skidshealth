@@ -1,4 +1,4 @@
-Added all the required things as per the instruction given by Skids Healt
+Added all the required things as per the instruction given by Skids Health
 My Project has a Config folder which has 2 files named db.js and jwt.js , the code in first file is to connect mongoDB and 2nd file is to generate token.
 Controllers folder has authcontroller and linkcontroller where authcontroller ensures the user is loggedin also generated password is hashed using bcrypt , linkcontroller are used to generate short url also errorhandler added for url in the body of postman.
 tried to add autorization in auth.js in middleware folder but it need some modification to work correctly.
